@@ -1,6 +1,7 @@
 name: aex fwb & telephony
-on: push
-
+on:
+  push:
+  workflow_dispatch:
 jobs:
   job1:
     name: auto fwb & telephony
@@ -8,14 +9,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: framework base
-      continue-on-error: true
       run: |
-       echo ok
+       ./fwb
     - name: framework opt telephony
-      continue-on-error: true
       run: |
-       echo ok
-    - name: codeaurora telephony
-      continue-on-error: true
-      run: |
-       echo ok
+       ./opt_telephony
