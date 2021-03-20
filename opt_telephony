@@ -3,6 +3,4 @@ git clone https://github.com/AospExtended/platform_frameworks_opt_telephony -b 1
 cd opt_tele
 git remote add aponlab https://github.com/Apon77Lab/platform_frameworks_opt_telephony
 git fetch aponlab 11.x
-git cherry-pick f4cdb112493cb491727d8326d1dfc7422aedaa87^..913046a11e3a4099b0a5454cf759f8200de1b27a
-git checkout -b auto
-git push aponlab -f
+git cherry-pick f4cdb112493cb491727d8326d1dfc7422aedaa87^..913046a11e3a4099b0a5454cf759f8200de1b27a && git checkout -b auto && git push aponlab -f
