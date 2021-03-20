@@ -1,0 +1,13 @@
+name: aex fwb & telephony
+on: push
+
+jobs:
+  job1:
+    name: auto fwb & telephony
+    runs-on: ubuntu-20.04
+    continue-on-error: true
+    steps:
+    - uses: actions/checkout@v2
+    - continue-on-error: true
+      run: |
+       echo ok
