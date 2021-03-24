@@ -4,4 +4,4 @@ git clone --filter=tree:0 https://github.com/AospExtended/platform_frameworks_ba
 cd base
 git remote add aponlab https://github.com/Apon77Lab/platform_frameworks_base
 git fetch aponlab 11.x --depth=4
-git cherry-pick 66a946ffba5ca3ede3226386fe34c510a8ed3579 && git cherry-pick 8d1e4b98564a7ba65c2d8d357e83ba7d4d337940 && git cherry-pick b50708cdf2463e7d464eb11a417d3d41edb625e6 && git checkout -b auto && git push aponlab -f
+git cherry-pick 66a946ffba5ca3ede3226386fe34c510a8ed3579 && git cherry-pick 8d1e4b98564a7ba65c2d8d357e83ba7d4d337940 && git checkout -b auto && git push aponlab -f
