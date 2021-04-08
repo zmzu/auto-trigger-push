@@ -13,9 +13,9 @@ jobs:
     - name: git config
       run: |
        ./config
-    - name: framework opt telephony
-      run: |
-       ./opt_telephony
     - name: framework base
       run: |
        ./fwb
+    - name: framework opt telephony
+      run: |
+       ./opt_telephony
