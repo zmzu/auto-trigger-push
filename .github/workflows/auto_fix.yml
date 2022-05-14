@@ -1,8 +1,6 @@
 name: aex fwb & telephony
 on:
-  push:
   workflow_dispatch:
-  pull_request:
 jobs:
   job1:
     name: auto fwb & telephony
@@ -20,3 +18,21 @@ jobs:
     - name: framework opt telephony
       run: |
        ./opt_telephony
+
+name: crdroid vendor
+on:
+  workflow_dispatch:
+jobs:
+  job1:
+    name: auto crdroid vendor
+    runs-on: ubuntu-20.04
+    env:
+      password: ${{ secrets.PASSWORD }}
+    steps:
+    - uses: actions/checkout@v2
+    - name: git config
+      run: |
+       ./config
+    - name: crdroid vendor
+      run: |
+       ./crdroid
