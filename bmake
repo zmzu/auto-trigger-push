@@ -1,6 +1,6 @@
 #!/bin/bash
 #cd /dev/shm
-git clone --filter=tree:0 https://github.com/AospExtended/platform_frameworks_base -b 11.x base
+#git clone --filter=tree:0 https://github.com/AospExtended/platform_frameworks_base -b 11.x base
 #cd base
 #git remote add aponlab https://github.com/Apon77Lab/platform_frameworks_base
 #git fetch aponlab 11.x --depth=4
