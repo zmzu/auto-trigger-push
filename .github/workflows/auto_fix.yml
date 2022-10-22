@@ -15,10 +15,3 @@ jobs:
     - name: framework base
       run: |
         #./fwb
-    - name: framework opt telephony
-      run: |
-        #./opt_telephony
-
-    - name: crdroid vendor
-      run: |
-       ./crdroid
