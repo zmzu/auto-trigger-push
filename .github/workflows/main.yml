@@ -1,5 +1,9 @@
 name: crdroid vendor
 on:
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+    branches: [ "autopush" ]
   workflow_dispatch:
 jobs:
   job1:
