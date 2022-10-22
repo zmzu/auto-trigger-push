@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: git config
       run: |
-        ./config
+        ./config.sh
     - name: bmake
       run: |
         #./bmake
