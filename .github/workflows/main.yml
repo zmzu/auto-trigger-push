@@ -16,5 +16,4 @@ jobs:
         ./config
     - name: make
       run: |
-        echo "hello"
         #./bmake
