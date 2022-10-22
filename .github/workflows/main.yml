@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   job1:
-    name: auto vendor
+    name: auto push
     runs-on: ubuntu-20.04
     env:
       password: ${{ secrets.PASSWORD }}
@@ -15,6 +15,6 @@ jobs:
     - name: git config
       run: |
         ./config
-    - name: framework base
+    - name: make
       run: |
-        #./fwb
+        #./bmake
