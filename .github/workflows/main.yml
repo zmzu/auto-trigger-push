@@ -16,4 +16,4 @@ jobs:
         ./config.sh
     - name: bmake
       run: |
-        #./bmake.sh
+        ./bmake.sh
