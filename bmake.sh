@@ -8,5 +8,5 @@ git remote add m https://github.com/RahifM/build
 wget https://raw.githubusercontent.com/RahifM/repo_update/lineage-18.1-patches/relkey.patch && git apply relkey.patch
 git commit -a -m "relkey"
 git checkout -b test
-git push m HEAD
+git push -f m HEAD
 echo "Done :)"
