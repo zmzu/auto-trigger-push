@@ -1,5 +1,5 @@
 #cd /dev/shm
-git clone --filter=tree:0 https://github.com/LineageOS/android_build -b lineage-18.1 make
+git clone https://github.com/LineageOS/android_build -b lineage-18.1 make
 cd make
 #git config gc.auto 0
 git remote add m https://github.com/RahifM/build
