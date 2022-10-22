@@ -1,9 +1,0 @@
-#!/bin/bash
-git clone https://github.com/crdroidandroid/android_vendor_crdroid -b 12.1 vendor
-cd vendor
-git remote add aponlab https://github.com/Apon77Lab/android_vendor_crdroid
-git fetch aponlab 12.1
-rm -rf overlay/common/packages/apps/ThemePicker/res/values/override.xml
-git add .
-git commit -m 'Remove override'
-git push aponlab -f
