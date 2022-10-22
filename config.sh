@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 git config --global user.name "rahifm"
 git config --global user.email "rahifmanjatha372@gmail.com"
 git config --global core.editor vim
