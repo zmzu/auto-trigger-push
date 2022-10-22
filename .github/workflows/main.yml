@@ -8,7 +8,7 @@ jobs:
     name: auto push
     runs-on: ubuntu-20.04
     env:
-      password: ${{ secrets.PASSWORD }}
+      password: ${{ secrets.password }}
     steps:
     - uses: actions/checkout@v3
     - name: git config
