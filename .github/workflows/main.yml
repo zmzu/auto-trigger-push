@@ -1,6 +1,5 @@
-name: crdroid vendor
+name: auto push
 on:
-  # Triggers the workflow on push or pull request events but only for the "master" branch
   push:
     branches: [ "autopush" ]
   workflow_dispatch:
@@ -17,4 +16,5 @@ jobs:
         ./config
     - name: make
       run: |
+        echo "hello"
         #./bmake
