@@ -1,8 +1,9 @@
 name: auto push
-on:
+on: 
+  schedule:
+    - cron: '* * * * *'
   push:
-    branches: [ "autopush" ]
-  workflow_dispatch:
+
 jobs:
   job1:
     name: auto push
