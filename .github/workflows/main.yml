@@ -1,7 +1,7 @@
 name: auto-trigger-push
 on:
-  schedule:
-    - cron: '0 19 * * 1,5'
+  #schedule:
+  #  - cron: '0 19 * * 1,5'
   push:
 
 jobs:
